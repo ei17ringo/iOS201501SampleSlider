@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISlider *mySlider;
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+
+- (IBAction)changeSlider:(id)sender;
 
 
 @end
